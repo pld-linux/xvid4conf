@@ -1,4 +1,5 @@
 Summary:	XviD configuration files wizard for transcode
+Summary(pl):	Konfiguratory do plików konfiguracyjnych XviD dla transcode
 Name:		xvid4conf
 Version:	1.12
 Release:	1
@@ -10,10 +11,16 @@ BuildRequires:	gtk+2-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This tool creates XviD configuration files. The generated configuration
-file is meant to be read by transcodes xvid4 export module. This module
-(and so the configuration file) is intended to be used with XviD 1.0
-(dev-api-4).
+This tool creates XviD configuration files. The generated
+configuration file is meant to be read by transcode's xvid4 export
+module. This module (and so the configuration file) is intended to be
+used with XviD 1.0 (dev-api-4).
+
+%description -l pl
+To narzêdzie tworzy pliki konfiguracyjne XviD. Pliki s± generowane z
+my¶l± o czytaniu przez modu³ eksportuj±cy xvid4 z transcode. Modu³ (a
+tym samym plik konfiguracyjny) jest przeznaczony do u¿ywania z
+bibliotek± XviD 1.0 (dev-api-4).
 
 %prep
 %setup -q
