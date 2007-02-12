@@ -1,5 +1,5 @@
 Summary:	XviD configuration files wizard for transcode
-Summary(pl.UTF-8):   Konfiguratory do plików konfiguracyjnych XviD dla transcode
+Summary(pl.UTF-8):	Konfiguratory do plików konfiguracyjnych XviD dla transcode
 Name:		xvid4conf
 Version:	1.12
 Release:	1
